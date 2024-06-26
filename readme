@@ -1,0 +1,18 @@
+# comando para visualizar o ip local no docker
+1. Passo: docker-compose exec postgres sh
+    hostname -i
+    resultado: 172.18.0.2
+2. Passo: docker inpect 461 | grep IPAddress
+#bibliotecas utilizadas
+1. gorilla mux - para rotas
+2. gorm orm - manipulação de banco de dados
+#atualizar o gorm orm
+comando: go get -u gorm.io/gorm
+#drive do postgres
+comando: go get gorm.io/driver/postgres
+#comando para parar todos os containers
+docker stop $(docker ps -q)
+#tive um problema ao expor a porta 5432 do postgres que fica exposta 
+    ##para fora onde já estava sendo usado então refinir outra porta 5485
+Instalação do github.com/gorilla/handlers
+#biblioteca para facilitar a implementação de política de CORS
