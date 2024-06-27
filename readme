@@ -72,8 +72,6 @@ Estrutura do Projeto:
 └── go.sum
 └── readme.go
 
-
-
 ## Observações pessoais
 
 # comando para visualizar o ip local no docker
