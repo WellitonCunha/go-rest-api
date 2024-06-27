@@ -45,6 +45,35 @@ Essas bibliotecas foram utilizadas para fornecer funcionalidades como roteamento
    git clone https://github.com/WellitonCunha/go-rest-api.git
    cd go-rest-api
 
+2. Instale as dependências:
+   go mod download
+
+3. Para rodar a aplicação localmente, use:
+   go run main.go
+
+A API estará disponível em http://localhost:8000.
+
+Estrutura do Projeto:
+├── controllers
+│   └── controllers.go
+├── database
+│   └── db.go
+├── middleware
+│   └── middleware.go
+├── migration
+│   └── docker-database-initial.sql
+├── models
+│   └── personalidades.go
+├── routes
+│   └── routes.go
+├── docker-compose.yml
+└── main.go
+└── go.mod
+└── go.sum
+└── readme.go
+
+
+
 ## Observações pessoais
 
 # comando para visualizar o ip local no docker
