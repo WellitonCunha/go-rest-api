@@ -55,7 +55,7 @@ A API estará disponível em http://localhost:8000.
 
 ## Observações pessoais
 
-# comando para visualizar o ip local no docker
+## comando para visualizar o ip local no docker
 1. Passo: docker-compose exec postgres sh
     hostname -i
     resultado: 172.18.0.2
