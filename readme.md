@@ -55,12 +55,12 @@ A API estará disponível em http://localhost:8000.
 
 ## Observações pessoais
 
-comando para visualizar o ip local no docker
 1. Passo: docker-compose exec postgres sh
-    hostname -i
-    resultado: 172.18.0.2
-2. Passo: docker inpect 461 | grep IPAddress
-#bibliotecas utilizadas
+   hostname -i
+   resultado: 172.18.0.2
+   comando para visualizar o ip local no docker
+3. Passo: docker inpect 461 | grep IPAddress
+   #bibliotecas utilizadas
 1. gorilla mux - para rotas
 2. gorm orm - manipulação de banco de dados
 #atualizar o gorm orm
