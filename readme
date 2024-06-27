@@ -43,7 +43,7 @@ Essas bibliotecas foram utilizadas para fornecer funcionalidades como roteamento
 
    ```bash
    git clone https://github.com/WellitonCunha/go-rest-api.git
-   cd sua-api
+   cd go-rest-api
 
 ## Observações pessoais
 
