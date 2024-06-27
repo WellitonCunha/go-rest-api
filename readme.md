@@ -53,25 +53,6 @@ Essas bibliotecas foram utilizadas para fornecer funcionalidades como roteamento
 
 A API estará disponível em http://localhost:8000.
 
-Estrutura do Projeto:
-├── controllers
-│   └── controllers.go
-├── database
-│   └── db.go
-├── middleware
-│   └── middleware.go
-├── migration
-│   └── docker-database-initial.sql
-├── models
-│   └── personalidades.go
-├── routes
-│   └── routes.go
-├── docker-compose.yml
-└── main.go
-└── go.mod
-└── go.sum
-└── readme.go
-
 ## Observações pessoais
 
 # comando para visualizar o ip local no docker
