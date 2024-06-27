@@ -5,7 +5,7 @@ Esta é uma API REST construída em Go. A API fornece várias funcionalidades e 
 ## Funcionalidades
 
 - [x] Roteamento com Gorilla Mux
-- [x] Middleware para logging e CORS
+- [x] Middleware para CORS
 - [x] Conexão com PostgreSQL usando GORM
 - [x] Migrações de banco de dados
 - [x] Tratamento de erros e respostas JSON
